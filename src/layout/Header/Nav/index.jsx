@@ -1,4 +1,4 @@
-import DropDown from "./BuyDropDown";
+import DropDown from "./NavItem";
 import "./Nav.css";
 
 const Nav = () => {
