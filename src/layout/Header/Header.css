@@ -4,7 +4,6 @@
   border-bottom: 1px solid rgb(202, 202, 202);
   background-color: rgb(255, 255, 255);
   position: relative;
-
 }
 
 .header__container {
@@ -22,3 +21,5 @@
   width: 160px;
   height: 46px;
 }
+
+
