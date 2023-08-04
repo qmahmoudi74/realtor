@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className="nav">
       <ul className="nav__container">
-        <DropDown />
+        <DropDown title="Buy" />
         <DropDown title="Sell" />
         <DropDown title="Rent" />
         <DropDown title="Mortgage" />

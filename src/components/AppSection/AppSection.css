@@ -1,0 +1,9 @@
+.app-section {
+  width: 100%;
+  padding-block: 2rem;
+}
+
+.app-section.narrow {
+  max-width: 64rem;
+  margin-inline: auto;
+}

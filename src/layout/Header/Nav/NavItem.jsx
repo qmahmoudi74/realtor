@@ -2,11 +2,12 @@ import { useState } from "react";
 import HeaderButton from "../HeaderButton";
 import NavDropDown from "./NavDropDown";
 
-const BuyDropDown = ({ items = [1, 3] }) => {
+const BuyDropDown = ({ items = [1, 3], title = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <HeaderButton onHover={() => setIsOpen((s) => !s)}>
-      <p>Buy</p>
+      <p>{title}</p>
 
       {isOpen && (
         <NavDropDown>

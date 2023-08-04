@@ -52,7 +52,7 @@
 
 .header__button {
   font-size: 14px;
-  height: 50px;
+  height: 49px;
   border: 0;
   border-bottom: 4px solid transparent;
   background-color: rgb(255, 255, 255);
@@ -63,7 +63,6 @@
 }
 
 .header__button:hover {
-
   border-color: rgb(217, 34, 40);
 }
 
@@ -71,5 +70,4 @@
   display: flex;
   gap: 0.5rem;
   height: 100%;
-  margin-bottom: 1px;
 }

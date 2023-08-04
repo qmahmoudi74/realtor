@@ -1,5 +1,11 @@
+import HomeHero from "./HomeHero";
+
 const HomePage = () => {
-  return <>HomePage</>;
+  return (
+    <>
+      <HomeHero />
+    </>
+  );
 };
 
 export default HomePage;

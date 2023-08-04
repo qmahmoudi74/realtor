@@ -1,0 +1,13 @@
+.home-hero {
+  position: relative;
+  height: 450px;
+  background-image: url(hp-hero-desktop-xl.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.home-hero__image {
+  width: 100%;
+  position: absolute;
+}

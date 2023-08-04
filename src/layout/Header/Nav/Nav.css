@@ -1,13 +1,13 @@
 .nav {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav__drop-down {
-  /* display: none; */
   position: absolute;
   top: calc(100% + 50px);
   min-height: 200px;
   left: 0;
   right: 0;
   background-color: blueviolet;
+  z-index: 999999;
 }
